@@ -9,5 +9,5 @@ for linea in lineas:
 print("The shell of root is " + dicUser['root'])
 try:
     print("The shell of imaginario is " + dicUser['imaginario'])
-except:
+except KeyError:
     print("The user doesn't exist")
